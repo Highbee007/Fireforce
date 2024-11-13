@@ -109,7 +109,7 @@ img {
 .markets {
      position: relative;
 }
-.markets {
+.market {
    display: flex;
     justify-content: space-between;
     align-items: center;
