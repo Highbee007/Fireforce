@@ -106,9 +106,15 @@ img {
     border-radius: 8px;
 }
 
-.market {
-    position: relative;
+.markets {
+     position: relative;
 }
+.markets {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 h3 a {
     text-align: right;
