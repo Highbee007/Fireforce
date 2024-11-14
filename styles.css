@@ -10,6 +10,8 @@ body {
 .nav {
     font-family: DM Mono Medium;
     font-size: 17px;
+    display: flex;
+    justify-content: space-between;
     padding: 18px 60px;
     background-color: rgb(24, 23, 23);
 }
