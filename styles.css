@@ -1,187 +1,193 @@
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 body {
-    background-color: black;
-    margin: 0;
-    color: white;
-    font-family: Quicksand Medium;
+  background-color: black;
+  margin: 0;
+  color: white;
+  font-family: Quicksand Medium;
 }
 
 .nav {
-    font-family: DM Mono Medium;
-    font-size: 17px;
-    display: flex;
-    justify-content: space-between;
-    padding: 18px 60px;
-    background-color: rgb(24, 23, 23);
+  font-family: DM Mono Medium;
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 1.3rem 5rem;
+  background-color: rgb(24, 23, 23);
 }
 
 .nav a {
-    text-decoration: none;
-    color: white;
-    margin: 0 20px;
-}
-.fire {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
 }
 
-.fire a {
-    text-decoration: none;
+.nav input {
+  height: 2rem;
+  background: transparent;
+  border: 1px solid blue;
+  align-items: center;
+  width: 20%;
+  border-radius: 10px;
 }
 
-input[type='text'] {
-    background-color: rgb(0, 0, 0, 0);
-    border: 2px solid blue;
-    min-height: 1.5rem;
-    width: 20%;
-    border-radius: 10px;
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+ul a {
+  text-decoration: none;
 }
 
 .button1 {
-    width: 150px;
-    min-height: 2rem;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    margin-right: 10px;
+  max-width: 10rem;
+  width: 100%;
+  height: 2rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
 }
 
 main {
-    padding: 10px 80px;
+  padding: 0.5rem 5rem;
 }
 
 .nfts {
-    width: 55%;
-    display: inline-block;
-    font-size: 35px;
-    font-family: DM Mono;
-    position: relative;
-    top: 2rem;
-    vertical-align: top;
-    /*border: 1px solid white;*/
+  font-size: 2.5rem;
+  font-family: DM Mono;
+  position: relative;
+}
+
+.nfts h1 {
+  width: 50%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -8rem;
+  margin-bottom: 1rem;
+}
+
+.flex .h2 {
+  font-size: 1.2rem;
+  width: 100%;
+  max-width: 33rem;
+  height: fit-content;
 }
 
 span {
-    color: blue;
+  color: blue;
 }
 
 img {
-    width: 410px;
-    height: 450px;
-}
-
-.img {
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    float: right;
-    /*border: 1px solid white;*/
-    top: 2rem;
-    margin-left: 10%;
-    margin-right: 0;
-}
-
-.h2 {
-    font-size: 16px;
-    width: 55%;
-    display: inline-block;
-    /*border: 1px solid white;*/
-    position: relative;
+  width: 410px;
+  height: 450px;
+  margin-top: -1rem;
 }
 
 .button {
-    display: inline-block;
-    width: 100%;
-    position: relative;
-    top: -1rem;
-    vertical-align: top;
+  display: flex;
+  width: 100%;
+  position: relative;
+  top: -1rem;
+  vertical-align: top;
 }
 .button2 {
-    width: 150px;
-    min-height: 2rem;
-    margin: 10px;
-    background-color: rgb(0, 0, 0, 0);
-    color: white;
-    border: 2px solid blue;
-    border-radius: 8px;
+  width: 150px;
+  min-height: 2rem;
+  background-color: rgb(0, 0, 0, 0);
+  color: white;
+  border: 2px solid blue;
+  border-radius: 8px;
 }
 
 .markets {
-     position: relative;
-}
-.market {
-   display: flex;
-    justify-content: space-between;
-    align-items: center;
+  position: relative;
 }
 
+.market {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 h3 a {
-    text-align: right;
-    float: right;
-    text-decoration: none;
-    color: inherit;
+  text-align: right;
+  float: right;
+  text-decoration: none;
+  color: inherit;
 }
 
 .Nfts {
-    display: inline-block;
-    width: 370px;
-    background-color: rgb(1, 1, 34);
-    height: 650px;
-    border: 2px solid blue;
-    margin: 10px;
-    vertical-align: top;
-    position: relative;
+  max-width: 21.5rem;
+  width: 90%;
+  background-color: rgb(1, 1, 34);
+  height: fit-content;
+  border: 2px solid blue;
+  overflow: hidden;
 }
 
-.innerImg > img {
-    width: 100%;
-    height: 50%;
-    vertical-align: top;
+.innerImg img {
+  width: 100%;
+  height: fit-content;
 }
 
 .bid {
-    width: 100%;
-    height: 50%;
-    padding: 0 15px;
-    vertical-align: top;
+  width: 100%;
+  height: 50%;
+  display: flex;
 }
 
-.mint, .sale {
-    font-family: Quicksand;
-    display: inline-block;
-    width: 49%;
-    position: relative;
-    vertical-align: top;
+.mint,
+.sale {
+  font-family: Quicksand;
+  width: 49%;
+  position: relative;
+  vertical-align: top;
 }
 .sale {
-    float: right;
-    text-align: right;
+  float: right;
+  text-align: right;
 }
 
-p, .end {
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
+p,
+.end {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
 }
 
 p {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 .end {
-    text-align: center;
-    float: right;
-    font-family: Quicksand;
+  text-align: center;
+  float: right;
+  font-family: Quicksand;
 }
 
 .by {
-    display: inline-block;
-    font-family: Quicksand;
-    vertical-align: top;
+  display: inline-block;
+  font-family: Quicksand;
+  vertical-align: top;
 }
 
 .current {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
