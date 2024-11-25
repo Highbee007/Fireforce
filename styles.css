@@ -139,6 +139,7 @@ h3 a {
   height: fit-content;
   border: 2px solid blue;
   margin: 20px;
+  overflow: hidden;
 }
 
 .innerImg img {
